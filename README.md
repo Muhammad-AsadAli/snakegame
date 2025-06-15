@@ -1,64 +1,41 @@
 🐍 Snake Game with Pygame
-A classic Snake Game built using the Python pygame library. Eat apples, grow longer, avoid collisions—and see how high you can score!
+A classic Snake Game implemented in Python using the `Pygame` library. Control the snake, eat apples to grow, and try to achieve the highest score without crashing into yourself!
 
-🎮 Game Features
-🍎 Apple generation and random movement
+📂 Project Structure
+arduino
+Copy
+Edit
+snakegame/
+├── snakegame.py
+├── apple.jpg
+├── block.jpg
+├── background.jpg
+├── bg_music.mp3
+├── ding.mp3
+└── crash.mp3
 
-🐍 Snake movement in four directions
+🚀 Features
+🎮 Classic snake movement using arrow keys
+🍎 Apple spawns at random positions
+🧠 Automatic score tracking
+💥 Self-collision detection
+🔁 Game restart support
+🔊 Sound effects and background music
+🎨 Custom background and sprite images
 
-📈 Score tracking
+Controls
+Key	Action
+⬅️ ⬆️ ➡️ ⬇️	Move the snake
+Enter	Restart game
+Escape	Quit the game
 
-💥 Collision detection with self and walls
+Assets Used
+Make sure the following files are present in your project directory:
+File	      Purpose
+`apple.jpg`	Image of the apple
+`block.jpg`	Snake body block image
+`background.jpg`	Background image
+`bg_music.mp3`	Background music
+`ding.mp3`	Sound when apple is eaten
+`crash.mp3`	Sound when game is over
 
-🔊 Background music and sound effects
-
-🖼️ Custom graphics for snake, apple, and background
-
-🧰 Requirements
-Python 3.x
-
-Pygame library
-
-Install Pygame via pip if you don't have it:
-
-pip install pygame
-🚀 How to Run
-Make sure the following files are present in the same directory:
-
-snakegame.py
-
-block.jpg (snake image)
-
-apple.jpg (apple image)
-
-background.jpg (background image)
-
-bg_music.mp3 (background music)
-
-ding.mp3 (sound when apple is eaten)
-
-crash.mp3 (sound when snake crashes)
-
-Run the game:
-`python snakegame.py`
-Controls:
-
-Arrow keys: Move the snake
-
-Enter: Restart after game over
-
-Esc: Exit the game
-
-🛠️ Code Structure
-Snake: Handles the snake's movement, growth, and rendering
-
-Apple: Manages apple position and drawing
-
-Game: Orchestrates game logic, collision detection, score display, and main loop
-
-🔊 Audio & Graphics
-Ensure the required media files are present and named exactly:
-
-Audio: bg_music.mp3, ding.mp3, crash.mp3
-
-Images: block.jpg, apple.jpg, background.jpg
