@@ -1,19 +1,6 @@
 🐍 Snake Game with Pygame
 A classic Snake Game implemented in Python using the `Pygame` library. Control the snake, eat apples to grow, and try to achieve the highest score without crashing into yourself!
 
-📂 Project Structure
-arduino
-Copy
-Edit
-snakegame/
-├── snakegame.py
-├── apple.jpg
-├── block.jpg
-├── background.jpg
-├── bg_music.mp3
-├── ding.mp3
-└── crash.mp3
-
 🚀 Features
 🎮 Classic snake movement using arrow keys
 🍎 Apple spawns at random positions
